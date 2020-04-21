@@ -52,18 +52,4 @@ public class ChickenAdapter extends RecyclerView.Adapter {
     public int getItemCount() {
         return numItems != null ? numItems.size() : 0;
     }
-    public void updateList(NumItem user) {
-        insertItem(user);
-    }
-
-    // Método responsável por inserir um novo usuário na lista
-    //e notificar que há novos itens.
-    private void insertItem(NumItem user) {
-        numItems.add(user);
-        notifyItemInserted(getItemCount());
-    }
-
-    void loadMore(){
-
-    }
 }
