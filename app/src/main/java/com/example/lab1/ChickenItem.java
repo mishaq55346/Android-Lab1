@@ -13,9 +13,5 @@ public class ChickenItem extends RecyclerView.ViewHolder{
         super(itemView);
         text_num = itemView.findViewById(R.id.item_number);
         text_full_num = itemView.findViewById(R.id.full_num);
-
     }
-
-
-
 }

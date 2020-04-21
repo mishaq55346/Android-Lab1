@@ -10,5 +10,5 @@
     android:layout_marginRight="16dp"
     android:layout_marginBottom="40dp"
     app:layoutManager="LinearLayoutManager"
-    tools:context=".numListFragment"
+    tools:context=".ChickenItem"
     tools:listitem="@layout/fragment_numlist" />
