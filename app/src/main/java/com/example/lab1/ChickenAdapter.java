@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Locale;
 
 public class ChickenAdapter extends RecyclerView.Adapter {
-    private final List<NumItem> numItems;
+    private List<NumItem> numItems;
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     RuleBasedNumberFormat nf = new RuleBasedNumberFormat(Locale.forLanguageTag("ru"),
             RuleBasedNumberFormat.SPELLOUT);
